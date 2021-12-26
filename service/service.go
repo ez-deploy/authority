@@ -17,7 +17,7 @@ type Service struct {
 }
 
 func (s *Service) SetAuthorities(ctx context.Context, req *pb.Authorities) (*model.CommonResp, error) {
-	insertItems := make([]interface{}, len(req.Authorities))
+	insertItems := []interface{}{}
 
 	for _, authority := range req.Authorities {
 		rawResource, err := model.StringifyResource(authority.Resource)
