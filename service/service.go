@@ -13,7 +13,7 @@ import (
 type Service struct {
 	AuthorityTable *sqlm.Table
 
-	pb.UnimplementedOpsServer
+	pb.UnimplementedAuthorityOpsServer
 }
 
 func (s *Service) SetAuthorities(ctx context.Context, req *pb.Authorities) (*model.CommonResp, error) {

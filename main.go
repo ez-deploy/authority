@@ -30,7 +30,7 @@ func main() {
 	}
 
 	s := grpc.NewServer()
-	pb.RegisterOpsServer(s, svc)
+	pb.RegisterAuthorityOpsServer(s, svc)
 
 	if err := s.Serve(lis); err != nil {
 		log.Fatalf("failed to serve: %v", err)

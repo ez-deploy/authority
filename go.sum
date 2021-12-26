@@ -36,6 +36,8 @@ github.com/envoyproxy/go-control-plane v0.9.10-0.20210907150352-cf90f659a021/go.
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
 github.com/ez-deploy/protobuf v0.0.0-20211223162611-d14bf8f23255 h1:/ywtSy3f4Eg/zfHRcKImlwNldjg3F90GKs3EkKXcBM8=
 github.com/ez-deploy/protobuf v0.0.0-20211223162611-d14bf8f23255/go.mod h1:Y/JnyzZVSTcwnr7ME19es6eE9Wqp5UmcSK2xoU33gH4=
+github.com/ez-deploy/protobuf v0.0.0-20211225092149-7b9c7bfba13c h1:io5LqotFWTkz+WznzCKsafbRh5YM9tc0+XEPTJR2TX4=
+github.com/ez-deploy/protobuf v0.0.0-20211225092149-7b9c7bfba13c/go.mod h1:hevQqfOvNWCmQ8o06wUJohjAY8mEZuGz2erkOvkHiWA=
 github.com/fastly/go-utils v0.0.0-20180712184237-d95a45783239/go.mod h1:Gdwt2ce0yfBxPvZrHkprdPPTTS3N5rwmLE8T22KBXlw=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/go-kit/kit v0.9.0 h1:wDJmvq38kDhkVxi50ni9ykkdUr1PKgqKOoi01fa0Mdk=

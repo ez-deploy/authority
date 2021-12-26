@@ -3,7 +3,7 @@ module github.com/ez-deploy/authority
 go 1.17
 
 require (
-	github.com/ez-deploy/protobuf v0.0.0-20211223162611-d14bf8f23255
+	github.com/ez-deploy/protobuf v0.0.0-20211225092149-7b9c7bfba13c
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/wuhuizuo/sqlm v0.0.0-20210826032816-ecaad8462bc6
 	google.golang.org/grpc v1.43.0
